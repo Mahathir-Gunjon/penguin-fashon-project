@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-white normal-navi py-3">
+            <div class="container">
+              <a class="navbar-brand w-25" href="#">
+                <img src="./images/logo.png" alt="" class="w-100">
+              </a>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- offcanvas nav  -->
+          <nav class="navbar navbar-light bg-white fixed-top offcanvas-navi">
+            <div class="container-fluid">
+              <a class="navbar-brand w-75" href="#">
+                  <img src="./images/logo.png" alt="" class="w-100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color:black; font-size:28px; backgrond:none"></i>
+                </span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main sesction start  -->
+    <section id="Section-1">
+        <div class="container">
+            <div class="row align-items-center align-middle py-5 my-5">
+                <div class="col-lg-7 banner-text">
+                    <h1>Be the Penguins <br><span>of Winter</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quos earum itaque esse aliquid nostrum labore eius optio veniam assumenda!</p>
+                    <button class="btn btn-lg banner-btn"><span><img src="./images/shopping-cart 1.png" alt=""></span> Buy Now</button>
+                </div>
+                <div class="col-lg-5">
+                    <img src="./images/model.png" alt="" class="img-fluid float-end">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Section-2 py-5">
+        <div class="container py-5">
+            <h2 class="product-title py-5">W0Man Jacket</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-1.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yellow Coat Jacket</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price me-5">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-2.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Jacket </h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price me-5">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-3.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Woman Leather Jacket </h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Section-2 py-5">
+        <div class="container py-5">
+            <h2 class="product-title py-5">men Jacket</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-4.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Snowboard Jacket Mens</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price me-5">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-5.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Man Leather Jackets </h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price me-5">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded shadow p-2 m-3">
+                        <img src="./images/jacket-6.png" class="card-img-top img-fluid p-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Man Casual Jackets</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="w-100 d-flex justify-content-between">
+                            <span class="price">$132</span> 
+                            <img src="./images/shopping-cart 1.png" alt="" class="btn banner-btn btn-sm ms-5 cart-button">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Section-4">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-md-3">
+                        <img src="./images/house.png" class="img-fluid px-4" alt="...">
+                      </div>
+                      <div class="col-md-9">
+                        <div class="card-body">
+                          <h5 class="card-title">Find the Perfect Fit</h5>
+                          <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-md-3">
+                        <img src="./images/box.png" class="img-fluid px-4" alt="...">
+                      </div>
+                      <div class="col-md-9">
+                        <div class="card-body">
+                          <h5 class="card-title">Free Exchanges</h5>
+                          <p class="card-text">One of the many reasons you can shop
+                            with peace of mind.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-md-3">
+                        <img src="./images/question.png" class="img-fluid px-4" alt="...">
+                      </div>
+                      <div class="col-md-9">
+                        <div class="card-body">
+                          <h5 class="card-title">Contact Our Seller</h5>
+                          <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                  <img src="./images/shopping.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <div class="container py-5 footer-text">
+        <img src="./images/logo.png" alt="" class="img-fluid w-50">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </footer>
+    <!-- font awesome cdn link  -->
+    <script src="https://kit.fontawesome.com/3f6b5c6b9d.js" crossorigin="anonymous"></script>
+    <!-- bootstrap Js cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar style  */
+.navbar-toggler-icon{
+    color: #A4BC46;
+    border: none;
+}
+.nav-link{
+    color: #000000;
+    font-size: 17px;
+}
+.nav-link:hover{
+    color: #85A019;
+}
+/* main start  */
+/* section 1 start  */
+#Section-1{
+    height: 90vh;
+    background-image: linear-gradient(#ffffff, #FFFBF0);
+}
+.banner-text h1{
+    color: #FABE4C;
+    font-size: 150px;
+    font-weight: 700;
+    font-family: Bebas Neue;
+    line-height: 1;
+}
+.banner-text span{
+    color: #363958;
+}
+.banner-text p{
+    color: #2f3036;
+    font-size: 16px;
+}
+.banner-btn{
+    background-image: linear-gradient(#A4BC46 ,#85A019);
+    color: #ffffff;
+    font-weight: 500;
+}
+.banner-btn img{
+    width: 30px;
+}
+#Section-2{
+    height: 90vh;
+}
+.product-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #363958;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive
+}
+.card-img-top{
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+.card-text{
+    font-size: 15px;
+}
+.price{
+    font-size: 30px;
+    text-align: start;
+    text-decoration: none;
+    color: goldenrod;
+}
+.cart-button{
+    width: 50px;
+    height: 40px;
+}
+footer{
+    background-image: linear-gradient(#f3f2f2, #e4e4e4);
+}
+.footer-text{
+    text-align: center;
+}
+/* media query start  */
+
+@media screen  and (min-width:768px){
+    .offcanvas-navi{
+        display: none;
+    }
+    .banner-text h1{
+        font-size: 90px;
+    }
+}
+@media screen  and (max-width:768px){
+    .normal-navi{
+        display: none;
+    }
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+}
